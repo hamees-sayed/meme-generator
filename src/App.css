@@ -66,20 +66,21 @@ main {
 
 .meme--image {
    min-width: 320px;
-   border-radius: 3px;
    max-width: 40%;
+   border-radius: 3px;
 }
 
 .meme--text {
    position: absolute;
-   width: 80%;
+   min-width: 300px;
+   max-width: 90%;
+   font-size: 1.5em;
    text-align: center;
    left: 50%;
    transform: translateX(-50%);
    margin: 15px 0;
    padding: 0 5px;
    font-family: impact, sans-serif;
-   font-size: 2em;
    text-transform: uppercase;
    color: white;
    letter-spacing: 1px;
