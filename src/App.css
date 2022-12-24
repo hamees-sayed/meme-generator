@@ -73,7 +73,7 @@ main {
 .meme--text {
    position: absolute;
    min-width: 300px;
-   max-width: 90%;
+   max-width: 85%;
    font-size: 1.5em;
    text-align: center;
    left: 50%;
